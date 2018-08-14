@@ -1,0 +1,1 @@
+throw new Error('请指定具体文件路径，如libs/utils');
