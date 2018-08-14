@@ -1,17 +1,27 @@
 {
-    "name": "mpit-utils",
-    "version": "0.0.9",
-    "main": "index.js",
-    "files": [
-        "index.js",
-        "libs",
-        "components",
-        "services"
-    ],
-    "repository": "https://github.com/mp-it-dev/mpit-utils",
-    "author": "mpit<mpit@mail.maipu.com>",
-    "license": "MIT",
-    "dependencies": {
-        "axios": "^0.18.0"
-    }
+  "name": "mp-plug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "follow-redirects": "^1.5.0",
+    "axios": "^0.18.0",
+    "ms": "^2.0.0",
+    "is-buffer": "^1.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddllee/mp-plug.git"
+  },
+  "author": "ddllee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddllee/mp-plug/issues"
+  },
+  "homepage": "https://github.com/ddllee/mp-plug#readme"
 }
